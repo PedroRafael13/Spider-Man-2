@@ -85,13 +85,19 @@ header button {
 
 .s-hero {
   width: 100%;
-  background: url('../img/bg-hero.jpg') no-repeat;
+  background: url("../img/bg-hero.jpg") no-repeat;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 800rem;
   padding-top: 11.2rem;
   padding-bottom: 14.3rem;
+}
+
+.s-hero .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .s-hero .left {
@@ -175,8 +181,67 @@ header button {
 
 .s-hero .left ul {
   margin-bottom: 1.7rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
 .s-hero .left ul:last-child {
   margin-bottom: 0;
+}
+
+.s-hero .left ul:last-child li:before {
+  display: none !important;
+}
+
+.s-hero .left ul li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.s-hero .left ul li:last-child:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #C0C0CC;
+  border-radius: 50%;
+}
+
+.s-hero .left ul p {
+  color: #f2f2f2;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.s-hero .right {
+  width: 100%;
+  max-width: 9.5rem;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 42px;
+}
+
+.s-hero .right span {
+  border-radius: 6px;
+  background-color: #F09104;
+  display: block;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.s-hero .right p {
+  color: #E1E1E1;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 150%;
 }
