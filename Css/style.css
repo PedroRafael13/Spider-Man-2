@@ -42,7 +42,7 @@ html {
 
 .container {
   width: 100%;
-  max-width: 1216rem;
+  max-width: 124.6rem;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -71,7 +71,7 @@ header nav {
 header nav a {
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 100%;
+  line-height: 150%;
 }
 
 header button {
@@ -85,11 +85,11 @@ header button {
 
 .s-hero {
   width: 100%;
-  background: url("../img/bg-hero.jpg") no-repeat;
+  background-image: url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 800rem;
+  height: 80rem;
   padding-top: 11.2rem;
   padding-bottom: 14.3rem;
 }
@@ -105,6 +105,7 @@ header button {
   max-width: 62.2rem;
 }
 
+
 .s-hero .left .platform {
   display: flex;
   margin-bottom: 2.4rem;
@@ -112,15 +113,15 @@ header button {
 
 .s-hero .left .platform span {
   color: #c0c0c0;
-  padding: 0.6rem 1.2rem;
   font-size: 1.2rem;
   line-height: 150%;
   background-color: #1B1B21;
+  padding: 0.6rem 1.2rem;
   border-radius: 4px 0px 0px 4px;
 }
 
 .s-hero .left .platform strong {
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 0px 4px 4px 0px;
   background-color: #25252E;
   padding: 0.6rem 1rem;
   font-size: 1.2rem;
@@ -148,6 +149,7 @@ header button {
 
 .s-hero .left .value h3 {
   font-size: 3.2rem;
+  font-weight: 700;
   list-style: normal;
   text-transform: uppercase;
   margin-bottom: 2.4rem;
@@ -167,6 +169,7 @@ header button {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 150%;
+  margin-bottom: 5.4rem;
 }
 
 .s-hero .left .value .bnts .bnt-favorite {
@@ -182,12 +185,18 @@ header button {
 .s-hero .left ul {
   margin-bottom: 1.7rem;
   display: flex;
-  align-items: center;
   gap: 1.6rem;
 }
 
 .s-hero .left ul:last-child {
   margin-bottom: 0;
+}
+
+.s-hero .left ul p {
+  color: #f2f2f2;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 150%;
 }
 
 .s-hero .left ul:last-child li:before {
@@ -222,8 +231,9 @@ header button {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 42px;
+  gap: 1.6rem;
 }
+
 
 .s-hero .right span {
   border-radius: 6px;
@@ -235,8 +245,6 @@ header button {
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
-  font-weight: 700;
-  line-height: 150%;
 }
 
 .s-hero .right p {
