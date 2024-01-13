@@ -1,158 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Mohave:wght@600;700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,700;1,600&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Site Spider Man</title>
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="Css/style.css" />
-    <title>Spider-Man</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <img src="img/logo.svg" alt"Spider-Man 2">
+        <img src="img/Logo.svg" class="logo" alt="Logo Spider Man 2" />
         <nav>
-          <a href="">Visão Geral</a>
+          <a href="">Visão geral</a>
           <a href="">Edições</a>
-          <a href="">Caracteristicas</a>
+          <a href="">Características</a>
           <a href="">Gameplay</a>
         </nav>
-        <button>Adiconar ao Carrinho</button>
+        <a href="" class="language"></a>
       </div>
     </header>
 
     <section class="s-hero">
       <div class="container">
         <div class="left">
-          <div class="platform">
+          <div class="plataform">
             <span>Disponivel para</span>
-            <strong>Ps5</strong>
+            <strong>PS5</strong>
           </div>
-          <h1>MARVEL'S SPIDER-MAN 2</h1>
+          <h1>Marvel's Spider-Man 2</h1>
           <p class="description">
-            Os spider-mans Peter Paker e Miles Morales estão de voltar em mais
-            uma aventura eletrizante da famosa franquia Marvel's Spider-Man para
-            PS5
+            Os Spiders Peter Parker e Miles Morales estão de volta em mais uma
+            aventura eletrizante da famosa franquia Marvel's Spider-Man para
+            PS5.
           </p>
           <div class="value">
             <h3>R$ 349,90</h3>
-            <div class="bnts">
-              <button class="bnt-cart">Adiconar ao Carrinho</button>
-              <button class="bnt-favorite">
-                <img src="img/heart.svg" alt="icone de coração" />
+            <div class="btns">
+              <button class="btn-cart">Adicionar ao carrinho</button>
+              <button class="btn-favorite">
+                <img src="img/icon-heart.svg" alt="icone de Coração" />
               </button>
             </div>
-            <div>
-              <ul>
-                <li>
-                  <img src="img/icon-ps5.svg" alt="ps5" />
-                  <p>Lançado 20/10/2023</p>
-                </li>
-                <li>
-                  <p>Versão para Ps5</p>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <img src="img/icon-singleplayer.svg" alt="ps5" />
-                  <p>1 jogador</p>
-                </li>
-                <li>
-                  <p>Compartivel com função vibração e efeito gatilho</p>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <img src="img/icon-ps5.svg" alt="" />
-                  <p>Compartivel com ajuda do jogo</p>
-                </li>
-              </ul>
-            </div>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <img src="img/icon-ps5.svg" alt="" />
+                <p>Lançado 20/10/2023</p>
+              </li>
+              <li>
+                <p>Versão para PS5</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="img/icon-singleplayer.svg" alt="" />
+                <p>1 jogador</p>
+              </li>
+              <li>
+                <p>Compatível com função de vibração e efeito gatilho</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="img/icon-plus.svg" alt="" />
+                <p>Compatível com a ajuda do jogo</p>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="right">
-            <span>12</span>
-            <p>Violêcia compra o jogo</p>
-          </div>
+          <span>12</span>
+          <p>Violência Compras no jogo</p>
         </div>
       </div>
     </section>
 
-    <section class="s-video" >
+    <section class="s-videos">
       <div class="container">
-        <div class="top" >
+        <div class="top">
           <h2>Últimos vídeos</h2>
+          <div class="swiper-pagination"></div>
         </div>
         <div class="slide-video">
           <div class="swiper-wrapper">
-            <div class="swiper-video">
-              <a href="#" class="card-video" >
+            <div class="swiper-slide">
+              <a href="#" class="card-video">
                 <div class="thumbnail">
-                  <img src="img/thumb-01.jpg" class="thumb" alt="thumb-one">
-                  <img src="img/play.svg" class="play" alt="">
+                  <img src="img/thumb-01.jpg" class="thumb" alt="thumb-01" />
+                  <img src="img/play.svg" class="icon" alt="play" />
                 </div>
                 <span>Gameplay Reveal</span>
               </a>
             </div>
-
-            <div class="swiper-video">
-              <a href="#" class="card-video" >
+            <div class="swiper-slide">
+              <a href="#" class="card-video">
                 <div class="thumbnail">
-                  <img src="img/thumb-01.jpg" class="thumb" alt="thumb-one">
-                  <img src="img/play.svg" class="play" alt="">
+                  <img src="img/thumb-02.jpg" class="thumb" alt="thumb-01" />
+                  <img src="img/play.svg" class="icon" alt="play" />
                 </div>
-                <span>Gameplay Reveal</span>
+                <span>Story Trailer</span>
               </a>
             </div>
-
-            <div class="swiper-video">
-              <a href="#" class="card-video" >
+            <div class="swiper-slide">
+              <a href="#" class="card-video">
                 <div class="thumbnail">
-                  <img src="img/thumb-01.jpg" class="thumb" alt="thumb-one">
-                  <img src="img/play.svg" class="play" alt="">
+                  <img src="img/thumb-03.jpg" class="thumb" alt="thumb-01" />
+                  <img src="img/play.svg" class="icon" alt="play" />
                 </div>
-                <span>Gameplay Reveal</span>
+                <span>Introduction Kraven</span>
               </a>
             </div>
-
-            <div class="swiper-video">
-              <a href="#" class="card-video" >
+            <div class="swiper-slide">
+              <a href="#" class="card-video">
                 <div class="thumbnail">
-                  <img src="img/thumb-01.jpg" class="thumb" alt="thumb-one">
-                  <img src="img/play.svg" class="play" alt="">
+                  <img src="img/thumb-04.jpg" class="thumb" alt="thumb-01" />
+                  <img src="img/play.svg" class="icon" alt="play" />
                 </div>
-                <span>Gameplay Reveal</span>
+                <span>Reveal Trailer</span>
               </a>
             </div>
-            <div class="swiper-video">
-              <a href="#" class="card-video" >
-                <div class="thumbnail">
-                  <img src="img/thumb-01.jpg" class="thumb" alt="thumb-one">
-                  <img src="img/play.svg" class="play" alt="">
-                </div>
-                <span>Gameplay Reveal</span>
-              </a>
-            </div>
+          </div>
         </div>
+        <button class="btn btn-prev">
+          <img src="img/arrow-slide.svg" alt="" />
+        </button>
+        <button class="btn btn-next">
+          <img src="img/arrow-slide.svg" alt="" />
+        </button>
       </div>
+    </section>
+
+    <section class="s-vilao">
+      <h2>O VILÃO MAIS PODEROSO ESTÁ À SOLTA</h2>
+      <p>
+        Domine as habilidades dos dois Spiders para derrotá-lo em um combate
+        épico.
+      </p>
+      <img src="img/icon-scroll.svg" alt="" />
     </section>
 
     <footer>
       <div class="container">
         <div class="left">
-          <strong>codeoost2024</strong>
-          <p>Ester conteúdo dstina-se exclusivamente a fins educacionais e não será utilizado para fins comerciais. Todas as imagens e marcas registradas são de propriedade de seus respectivos detentores de direito autorais. O uso deste material busca promove a educação e o conhecimento </p>
+          <strong>©codeboost2024</strong>
+          <p>
+            Este conteúdo destina-se exclusivamente a fins educacionais e não
+            será utilizado para fins comerciais. Todas as imagens e marcas
+            registradas são de propriedade de seus respectivos detentores de
+            direitos autorais. O uso deste material busca promover a educação e
+            o conhecimento.
+          </p>
         </div>
         <div class="right">
-          <span>Desinng by</span>
-          <img src="img/design-boost.svg" alt="desing">
+          <span>Design by </span>
+          <img src="img/design-boost.svg" alt="" />
         </div>
       </div>
     </footer>
